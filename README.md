@@ -18,7 +18,7 @@ Configure your options in `helm-values.yml` and deploy the chart :
 
 ```shell
 kubectl create namespace kubeapps
-helm install kubeapps --namespace kubeapps bitnami/kubeapps
+helm install kubeapps --namespace kubeapps -f helm-values.yml bitnami/kubeapps
 ```
 
 Enable `Ingress` and you can access dashboard using [http://kubeapps.local](http://kubeapps.local)

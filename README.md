@@ -8,9 +8,9 @@ Kubeapps is a web-based UI for deploying and managing applications in Kubernetes
 - Connect Helm-based applications to external services with Service Catalog Bindings
 - Secure authentication and authorization based on Kubernetes Role-Based Access Control
 
-[dash1](dash1.png)
+![dash1](dash1.png)
 
-[dash2](dash2.png)
+![dash2](dash2.png)
 
 ## Install
 
